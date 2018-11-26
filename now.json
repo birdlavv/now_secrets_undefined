@@ -1,0 +1,11 @@
+{
+    "version": 2,
+    "name": "nodejs",
+    "builds": [
+        { "src": "*.js", "use": "@now/node" }
+    ],
+    "env": {
+        "AN_ENV_VARIABLE": "Hello there.",
+        "SUPER_SECRET": "@super_secret"
+    }
+}
